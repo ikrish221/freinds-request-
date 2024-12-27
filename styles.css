@@ -1,0 +1,67 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+	
+}
+html,body{
+	height:100%;
+	width:100%;
+	box-sizing:border-box;
+	font-family:'gilroy'
+	
+}
+body{
+	display:flex;
+	justify-content:center;
+	background-color:cornflowerblue;
+	align-items:center;
+	text-align:center;
+	
+}
+
+
+#card{
+	border-radius:11px;
+       height:500px;
+       width:352px;
+       background-color:white;
+       padding:30px;
+       margin:11px;
+       
+
+}
+
+#add{
+	cursor:pointer;
+	height:60px;
+	font-size:20px;
+	width:200px;
+	border-radius:5px;
+	border:2px solid white;
+	background-color:#8BF527;
+	color:white;
+}
+#card h1{
+	font-size:35px;
+	margin:10px 0px;
+}
+#card h5{
+	margin:5px 0px;
+	font :200px;
+	font-size:30px;
+	color:red;
+	
+}
+#card img{
+	height:70%;
+	width:100%;
+	object-position:center;
+	object-fit:cover;
+	border-radius:5px;
+
+	
+
+	
+}
+
